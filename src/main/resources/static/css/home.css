@@ -1,0 +1,17 @@
+
+body {
+    background: url("../images/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.btn-xl {
+    padding: 30px 20px;
+    font-size: 24px;
+
+    border-radius: 10px;
+    background: lightsteelblue;
+    width:40%;    //Specify your width here
+}
