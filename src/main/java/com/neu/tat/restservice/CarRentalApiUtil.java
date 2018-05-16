@@ -1,6 +1,6 @@
 package com.neu.tat.restservice;
 
-public class ApiUtil {
+public class CarRentalApiUtil {
 
     final String apiKey = "lfvwJth88Rh6hkIlD0DFHU6y2WcZRqA3";
     final String PATH = "";
