@@ -33,18 +33,31 @@
             <ul class="nav navbar-nav navbar-right">
 
                 <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
+
                 <li><a href="#">Contact</a></li>
+                <li class="nav-item dropdown"><a
+                        class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false"> Services</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="nav-link" class="dropdown-item"
+                           href="#!carRental">Car Rental</a><br>
+                        <!-- show all stuffs posted by user give option to delete/ edit them -->
+                        <a class="nav-link" class="dropdown-item"href="#!airService">Air Service</a>
+                        <!-- implement add event/view event -->
+
+                    </div></li>
                 <li>
                     <a class="btn btn-default btn-outline btn-circle"  data-toggle="collapse" href="#nav-collapse1" aria-expanded="false" aria-controls="nav-collapse1">Log Out</a>
                 </li>
+
             </ul>
 
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
 </nav><!-- /.navbar -->
 
-
+<!--
 
 <div class="fluid-container "  >
 
@@ -63,6 +76,13 @@
     </div>
 
     </div>
+</div>
+-->
+
+<div ng-view>
+
+
+
 </div>
 </body>
 </html>
