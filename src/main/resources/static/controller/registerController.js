@@ -22,7 +22,7 @@
             };
             var redirectToURL ="";
             $http
-                .post(localpath+url+"registration", newUser)
+                .post(localpath+url+"register", newUser)
                 .then(function (response) {
                     $scope.user = response.data;
                     alert("Successfully registered!");
@@ -32,4 +32,4 @@
                 });
         }
         }
-    }
+    })

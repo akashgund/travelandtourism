@@ -19,8 +19,8 @@ public class User {
     @Column(name="lastName")
     private String lastName;
 
-    @Column(name="emailId")
-    private String emailId;
+    @Column(name="email")
+    private String email;
 
     @Column(name="password")
     private String password;
@@ -51,11 +51,11 @@ public class User {
     }
 
     public String getEmailId() {
-        return emailId;
+        return email;
     }
 
     public void setEmailId(String emailId) {
-        this.emailId = emailId;
+        this.email = email;
     }
 
     public String getPassword() {
